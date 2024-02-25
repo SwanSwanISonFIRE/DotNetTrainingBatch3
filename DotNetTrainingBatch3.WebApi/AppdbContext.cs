@@ -1,15 +1,10 @@
-﻿using DotNetTrainingBatch3.ConsoleApp1_1.Models;
+﻿using DotNetTrainingBatch3.WebApi.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DotNetTrainingBatch3.ConsoleApp1_1.EFCoreEg
+namespace DotNetTrainingBatch3.WebApi
 {
-    public class AppdbContext : DbContext              
+    public class AppdbContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
