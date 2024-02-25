@@ -1,6 +1,9 @@
 # DotNetTrainingBatch3
 
 c#
+ado.net CRUD
+dapper
+ef core (code first, database first)
 
 .net framework (windows)
 1
