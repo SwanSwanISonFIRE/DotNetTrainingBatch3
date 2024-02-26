@@ -4,6 +4,7 @@
 
 using DotNetTrainingBatch3.ConsoleApp1_1.AdoDotNetExamples;
 using DotNetTrainingBatch3.ConsoleApp1_1.DapperEg;
+using DotNetTrainingBatch3.ConsoleApp1_1.HttpClientExamples;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -47,7 +48,7 @@ Console.WriteLine("Hello, World!");
 //    Console.WriteLine("Content" + dr["BlodTitle"]);
 //}
 
-AdoDotNetExample ado = new AdoDotNetExample();
+//AdoDotNetExample ado = new AdoDotNetExample();
 //ado.Read();
 
 //ado.Edit(1);
@@ -59,7 +60,14 @@ AdoDotNetExample ado = new AdoDotNetExample();
 
 //ado.Delete(2);
 
-DapperExample deg = new DapperExample();
-deg.Read();
+//DapperExample deg = new DapperExample();
+//deg.Read();
+
+Console.WriteLine("pls wait for api");
+Console.ReadKey();
+
+HttpClientEg h = new HttpClientEg();
+await h.Run();
+
 
 Console.ReadKey();
