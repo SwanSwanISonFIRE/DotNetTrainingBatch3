@@ -6,6 +6,7 @@ using DotNetTrainingBatch3.ConsoleApp1_1.AdoDotNetExamples;
 using DotNetTrainingBatch3.ConsoleApp1_1.DapperEg;
 using DotNetTrainingBatch3.ConsoleApp1_1.HttpClientExamples;
 using DotNetTrainingBatch3.ConsoleApp1_1.Models;
+using DotNetTrainingBatch3.ConsoleApp1_1.RestClientExamples;
 using Newtonsoft.Json;
 using System;
 using System.Data;
@@ -91,8 +92,11 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("pls wait for api");
 Console.ReadKey();
 
-HttpEg2 h2 = new HttpEg2();
-await h2.Run();
+//HttpEg2 h2 = new HttpEg2();
+//await h2.Run();
+
+RestClientEg r = new RestClientEg();
+await r.Run();
 
 
 
