@@ -6,6 +6,7 @@ using DotNetTrainingBatch3.ConsoleApp1_1.AdoDotNetExamples;
 using DotNetTrainingBatch3.ConsoleApp1_1.DapperEg;
 using DotNetTrainingBatch3.ConsoleApp1_1.HttpClientExamples;
 using DotNetTrainingBatch3.ConsoleApp1_1.Models;
+using DotNetTrainingBatch3.ConsoleApp1_1.Refit_Examples;
 using DotNetTrainingBatch3.ConsoleApp1_1.RestClientExamples;
 using Newtonsoft.Json;
 using System;
@@ -95,7 +96,10 @@ Console.ReadKey();
 //HttpEg2 h2 = new HttpEg2();
 //await h2.Run();
 
-RestClientEg r = new RestClientEg();
+//RestClientEg r = new RestClientEg();
+//await r.Run();
+
+refitEg r = new refitEg();
 await r.Run();
 
 
