@@ -5,6 +5,9 @@
 using DotNetTrainingBatch3.ConsoleApp1_1.AdoDotNetExamples;
 using DotNetTrainingBatch3.ConsoleApp1_1.DapperEg;
 using DotNetTrainingBatch3.ConsoleApp1_1.HttpClientExamples;
+using DotNetTrainingBatch3.ConsoleApp1_1.Models;
+using Newtonsoft.Json;
+using System;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -63,11 +66,34 @@ Console.WriteLine("Hello, World!");
 //DapperExample deg = new DapperExample();
 //deg.Read();
 
+//Console.WriteLine("pls wait for api");
+//Console.ReadKey();
+
+//HttpClientEg h = new HttpClientEg();
+//await h.Run();
+
+//BlodModel b = new BlodModel();
+//b.BoldTitle = "Title";
+//b.BlodAuthor = "Title";
+//b.BlodContent = "Title";
+//string json = JsonConvert.SerializeObject(b);
+//Console.WriteLine(b);
+//Console.WriteLine(json);
+//Console.WriteLine(b.BoldTitle);
+//Console.WriteLine(b.BlodAuthor);
+//Console.WriteLine(b.BlodContent);
+
+//BlodModel b2 = JsonConvert.DeserializeObject<BlodModel>(json);
+//Console.WriteLine(b2.BoldTitle);
+//Console.WriteLine(b2.BlodAuthor);
+//Console.WriteLine(b2.BlodContent);
+
 Console.WriteLine("pls wait for api");
 Console.ReadKey();
 
-HttpClientEg h = new HttpClientEg();
-await h.Run();
+HttpEg2 h2 = new HttpEg2();
+await h2.Run();
+
 
 
 Console.ReadKey();
