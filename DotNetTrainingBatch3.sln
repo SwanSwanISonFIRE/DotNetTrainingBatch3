@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{99
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch3.WebApi", "DotNetTrainingBatch3.WebApi\DotNetTrainingBatch3.WebApi.csproj", "{C3C6FE11-8D21-47B2-B92E-716CA628DEE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch3.WebApi", "DotNetTrainingBatch3.WebApi\DotNetTrainingBatch3.WebApi.csproj", "{C3C6FE11-8D21-47B2-B92E-716CA628DEE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch3", "DotNetTrainingBatch3\DotNetTrainingBatch3.csproj", "{9A253963-8C5B-46F8-8936-4B12D83949FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{C3C6FE11-8D21-47B2-B92E-716CA628DEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3C6FE11-8D21-47B2-B92E-716CA628DEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3C6FE11-8D21-47B2-B92E-716CA628DEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A253963-8C5B-46F8-8936-4B12D83949FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A253963-8C5B-46F8-8936-4B12D83949FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A253963-8C5B-46F8-8936-4B12D83949FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A253963-8C5B-46F8-8936-4B12D83949FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
